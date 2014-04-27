@@ -1,0 +1,23 @@
+
+h1
+{
+color: black;
+text-align: center;
+}
+
+
+ol{font-weight: bold;
+font-size: 20px;}
+
+ul
+{color: #ff0000;
+text-decoration: italic;
+font-size: 20px;}
+
+img{
+	height: 500px;
+	width: 400px;
+}
+
+
+

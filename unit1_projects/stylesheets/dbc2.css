@@ -1,0 +1,113 @@
+
+
+#bodywrapper{
+	margin: 0 auto;
+	background-color: #e6e6e6;
+	width: 80%;
+	height: 100%;
+}
+
+#header{
+	margin: 0 auto;
+	width: 80%;
+	height: 40px;
+	background-color: gray;
+}
+
+h1
+{color: black;
+text-align: center;
+font-weight: bold;
+text-shadow:5px 5px 10px gray;
+}
+
+ul, li, a
+{list-style-type: none;
+text-decoration: none;}
+
+ul#navmenu
+{margin-left: 300px;
+}
+
+ul#navmenu li 
+{
+text-align: center;
+width: 125px;
+float: left;
+position: relative;
+margin-right: 30px;
+}
+
+ul#navmenu a
+{color: black;
+border: 3px #fff solid;
+border-radius: 7px;
+display: block;
+width: 125px;
+height: 25px;
+background-color: #fff;
+}
+ 
+ul#navmenu li:hover > a{
+background-color: black;
+color: #fff;
+}
+
+ul#navmenu ul.subabout
+{display: none;
+position:absolute;
+}
+
+ul#navmenu .subabout a
+{margin-top: 10px;}
+
+ul#navmenu ul.subservices 
+{display: none;
+position:absolute;
+
+}
+
+ul#navmenu .subservices a
+{font-size: 15px;
+margin-top: 15px;
+}
+
+ul#navmenu li:hover .subabout
+{display: block;
+}
+
+
+ul#navmenu li:hover .subservices
+{display: block;
+}
+
+img {
+	height: 500px;
+	width: 500px;
+	margin-left: 330px;
+}
+
+p1, p2 {
+	font-size: 20px;
+	display: block;
+	text-align: center;
+}
+
+#footer{
+	margin: 0 auto;
+	width: 80%;
+	height: 40px;
+	background-color: gray;
+}
+h3{
+	text-align: center;
+	padding-top: 10px;
+	}
+
+h4{
+		text-align: center;
+		position: relative;
+		bottom: 50px;
+		color: #fff;
+
+	}
