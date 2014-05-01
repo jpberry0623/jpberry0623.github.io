@@ -26,7 +26,7 @@ ul, li, a
 text-decoration: none;}
 
 ul#navmenu
-{margin-left: 300px;
+{margin-left: 220px;
 }
 
 ul#navmenu li 
@@ -84,7 +84,7 @@ ul#navmenu li:hover .subservices
 img {
 	height: 500px;
 	width: 500px;
-	margin-left: 330px;
+	margin-left: 230px;
 }
 
 p1, p2 {
