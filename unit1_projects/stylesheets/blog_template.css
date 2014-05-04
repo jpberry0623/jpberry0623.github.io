@@ -1,0 +1,66 @@
+
+
+body{
+	font-family: helvetica, arial, verdana,;
+	background-color: black;
+	}
+header
+{
+	background: url("../images/bricks.jpg");
+	background-opacity: .5;
+}
+
+
+h1
+	{   
+	font-family: 'lobster', cursive; helvetica, arial,;
+	font-size: 2.5em;
+	color: #fff;
+	opacity: .9;
+	margin-left: 5%
+	}
+h2
+{
+	font-family: 'lobster', cursive; helvetica, arial,;
+	color: #fff;
+	opacity: .5;
+	margin-left: 12%;
+}
+
+
+article
+	{ background: url("../images/bricks.jpg");
+	width: 50%;
+	padding: 4%;
+	height: 100%;
+	margin-left: 5%;
+	margin-top: 5%;
+	opacity: .9;
+	color: #fff;
+	float: left;
+	text-align: justify;
+	
+}
+
+aside
+	{font-family: piedra, cursive;
+	width: 20%;
+	float: right;
+	margin-top: 5%;
+	margin-right: 5%;
+	height: 50%;
+	text-align: center;
+	background: url("../images/wood.jpg");
+	color: #fff;
+	}
+
+footer
+{font-family: piedra, cursive;
+width:100%;
+height: 2em;
+margin-top: 5%;
+background: url("../images/wood.jpg");
+color: #fff;
+float: left;
+text-align: center;
+}
