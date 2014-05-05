@@ -125,7 +125,7 @@ h4 {
   background-color: white;
   float: left;
   min-height: 10%;
-  max-height: 50%
+  max-height: 50%;
   margin: 1%;
   padding: 2%;
   width: 27.33%;
@@ -141,6 +141,10 @@ h4 {
   width: 100%;
 }
 
+ul, li
+{
+  list-style-type: none;
+}
 
 /* Organizations */
 #organizations {
@@ -199,3 +203,4 @@ h4 {
   display: table;
   clear: both;
 }
+
