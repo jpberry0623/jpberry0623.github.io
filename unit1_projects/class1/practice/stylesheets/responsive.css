@@ -1,0 +1,26 @@
+
+
+
+
+#famous div.woman {
+  background-color: white;
+  float: left;
+  min-height: 10%;
+  max-height: 50%;
+  margin: 1%;
+  padding: 2%;
+  width: 40%;
+}
+
+
+#famous div.break {
+  clear: none;
+  float: left;
+}
+
+#header .nav ul{
+ 
+  font-size: 1.2em;
+  margin-right: 5%;
+}
+
