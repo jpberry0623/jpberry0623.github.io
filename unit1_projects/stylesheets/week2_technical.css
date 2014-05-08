@@ -35,7 +35,7 @@ article
 	height: 350px;
 	overflow: scroll;
 	margin-left: 5%;
-	margin-top: 5%;
+	margin-top: 2%;
 	opacity: .9;
 	color: #fff;
 	float: left;
@@ -47,7 +47,7 @@ aside
 	{font-family: piedra, cursive;
 	width: 20%;
 	float: right;
-	margin-top: 5%;
+	margin-top: 2%;
 	margin-right: 5%;
 	height: 350px;
 	text-align: center;
