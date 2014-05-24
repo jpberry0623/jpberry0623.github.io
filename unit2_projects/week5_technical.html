@@ -1,0 +1,145 @@
+<!Doctype HTML>
+
+<head>
+
+	<title>Week 5 Technical Blog</title>
+	<link rel="stylesheet" type="text/css" href="../unit1_projects/stylesheets/week2_technical.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Piedra' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+
+	<header>
+
+			<h1>Week 5 Technical Blog</h1>
+
+			<h2>tell us whats on your mind...</h2>
+
+	</header>
+
+	
+
+		<article>
+				
+				<h3 id="post6">Classes</h3>
+
+				Ruby is an object oriented language and as such, everything in ruby is an object.  How many times have you heard that statement while reading through tutorials?  I'm gonna say at least 73, probably more.  But classes play a large role in defining object when we are talking about object orientation. An object-oriented program involves classes and objects. A class is the blueprint from which individual objects are created.  Each of the objects we create can have similar methods and attributes, therefore may want to create a class to house these similar objects so they can access on the various methods we may create within the class. Objects created at runtime from a class are called instances of that particular class. We define classes simply by using the word class and naming the class. Standard convention is to use an uppercase word or camelcase if more than one word. Lets look at an example.<br></br>
+
+						<img src="../unit1_projects/images/class2.png"><br></br>
+
+				So we have defined a class called Person, what is that funny initialize thing?  Well, that my friends tells our class that every time we create and instance of an object within the Person class, that object will have these attributes.  Initialize is our constructor method for our class.  If we were to create these attributes outside of the method and only for each instance of the object, those variables could only be accessed by that particular object, not all the objects of the class.  The next thing you will see is that I created a method called identitfy so we can call the attributes of an instance of the Person class when they are added.  So I have created an instance of the class object called john, given it some attributes, and the used the identitfy method to put those attributes to the screen as a readable sentence.<br></br>
+
+
+
+
+
+
+				<h3 id="post5">Hashes vs. Arrays: The Showdown</h3>
+
+
+            	<p> Both array sand hashes are very flexible data structures that have the ability to store large amounts of information.  Strings? No sweat!  Integers? Of course! Other arrays?  Oh yeah!  But not all of those things mixed up, right?  Hellllz Yeahh!  All kidding aside, both hashes and array have the ability to store various types of data and can be added to and subtrcacted from whenever we feel like it.<br>
+
+            		One of the main differences is that arrays store information based on an index.  For example if I had an alphabet array of:<br></br>
+
+            		 alphabet = ["a", "b", "c", "d", "etc."]<br></br>
+
+            		 the index values would be:<br></br>
+
+            		  a[0], b[1], c[2], d[3], etc[4].<br></br>
+            		
+            		But we can also view the index values as negative integers starting at the last value which is equal to -1.  So Those values again would be:<br></br>
+
+            		a[-5], b[-4], c[-3], d[-2], etc[-1]<br></br>
+
+
+            	Hashes on the other hand are ordered with key/value pairs and do not necessrily have a set order like an array. Each key has a value that is matched to it and those objects can be called using either the key or the value.  It looks like this:
+            	<br></br>
+            	favorite_food = {<br>
+            	"breakfast" => "bacon",<br>
+               "lunch" => "sandwich",<br>
+            	"dinner" => "pizza"<br>
+            	}<br><br></br>
+
+            	As you can see, each mealtime is a key, and each of the favorite foods is a value.  We can use hashes to store and access information together based on specific keys or values which makes it great for things like a lubrary or cataloging.
+            	Since we can access information based on index with an array, it is ideal for use when we need keep information in an ordered list, or sort information and access it based on its position. Just as a final note, in the examples above I created the array and hash using the literal syntax whch is just assigning a variable.  We can also creat these by calling
+            	Array.new and Hash.new. <br></br>
+
+            	So now that you know the difference, who wins the showdown?
+
+
+
+
+
+
+
+
+			<h3 id="post4">Javascript</h3>
+
+				<p>Javascript has many benefits.  First of which it is an object orinted language, like ruby.  This allows us to create unique classes and objects and gives us the functionality to change those objects(mutable) on the fly as our program needs.  We can make new functions and properties of the objects without being inside the objects(prototype). and we can use the classes of object to define other objects(inheritance). With OOP we can develop fast, lightweight programs that are easy to debug, maintain, and expand.
+
+					Javascript is also fairly easy to learn compared to some other languages.  It's powerful and operated on the client side which allows your program to run on the clients machine rather than running on the server(alhough I believe you can use javascript on the server side as well).  Javascript is supported in all browsers and by all devices, also having libraries like jquery and dojo that increase it ease of use and functionality </p>
+
+
+
+
+			<h3 id="post1">Margin vs. Border vs. Padding</h3>
+
+				<p>The best way I can describe the difference between these is that the border is the space around your element that touches the element.  It can be as thick as you need and styled in vaious different ways from solid, dotted, or even using images as a border.  It can also be manipulated to be different colors and shapes using the border-radius property.  The padding area is the space between your content and the border.  If you do not declare a padding value it will be set to default which will make your content align cloely with the border of your element.  Margin is a transparent area around your element.  By setting margins you can push the various element on your page around, but also give each element its own space from your other surrounding elements or the browser window itself.  I ahve seen other technical blog posts with handy pictures showing the difference and thought I'd show it below as well for a handy visual aid.</p>
+
+				<br></br>
+
+				<img src="http://www.w3schools.com/css/box-model.gif">
+
+				<br></br>
+
+
+			<h3 id="post2">Classes vs. ID's</h3>
+
+				<p>I'm still a little shaky on this subject, but from my understanding an ID is unique to that page.  You can only name a unique ID once for an element and that ID cannot be reused for other on the page.  Classes can be applied to multiple different elements on the page and you can have multiple classes for each element.  I think that is where the difference ends.  The capabilities in terms of using classes and ID's to point to and style different elements are the same</p>
+
+				<br></br>
+
+			<h3 id ="post3">Relative, Absolute, Fixed Positioning</h3>
+
+			<p>Absolute positioning is when an element is positioned relative  to its parent/ancestor element.  If there is no parent element it will be positioned in relation to the browser window.  Relative positioning puts the positioning of an element reltive to its normal position.  Fixed position locks an elements positioning so it will not move, even if the browser window changes or is scrolled. </p>
+
+
+		</article>	
+
+
+		<aside>
+
+			<h3><u>Posts</u></h3>
+
+				<ul id="posts">
+
+					<li><a href="#post6">Classes</a></li>
+           			<li><a href="#post5">Arrays vs. Hashes</a></li>
+           			<li><a href="#post4">Javascript</a></li>
+           			<li><a href="#post3">Relative, Absolute, Fixed Positioning</a></li>
+           			<li><a href="#post2">Classes vs. ID's</a></li>
+           			<li><a href="#post1">Margin, border, padding</a></li>
+
+				</ul>
+			
+		</aside>	
+
+		<footer> 
+
+				<ul id="footer">
+
+					<li><a href="../unit1_projects/index.html">INDEX PAGE</a></li>
+           			<li><a href="../unit1_projects/week3_technical.html">WEEK 3 TECH BLOG</a></li>
+           			<li><a href="week4_cultural_blog.html">WEEK 4 CULT BLOG</a></li>
+           			<li><a href="../unit1_projects/dbc2.html">DBC2 Site</a></li>
+
+				</ul>
+
+		</footer>
+
+	</body>
+</HTML>
+
