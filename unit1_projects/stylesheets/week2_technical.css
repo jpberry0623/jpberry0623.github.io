@@ -4,7 +4,7 @@ body
 {
 	font-family: helvetica, arial, verdana,;
 	background: url("../images/black_bg.jpg");
-	margin-bottom: 2%;
+	
 }
 
 header
@@ -52,12 +52,13 @@ h3
 article
 { 
 	background: url("../images/bricks.jpg");
-	width: 50%;
+	width: 60%;
 	padding: 4%;
 	height: 350px;
 	overflow: scroll;
 	margin-left: 5%;
 	margin-top: 2%;
+	margin-bottom: 2.5%;
 	opacity: .9;
 	color: #fff;
 	float: left;
@@ -111,10 +112,11 @@ footer
 	font-family: 'piedra', cursive;
 	width:100%;
 	height: 3em;
-	margin-top: 2%;
+	margin-top: 5%;
 	background: url("../images/wood.jpg");
 	text-align: center;
-	float: left;
+	clear: both;
+	float: right;
 }
 
 ul#footer

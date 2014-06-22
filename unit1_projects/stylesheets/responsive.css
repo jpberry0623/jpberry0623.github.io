@@ -67,15 +67,15 @@ h2
 
 article
 {
-	width: 90%;
-	height: 90%;
-	overflow-x: none;
+	width:90%;
+	height: auto;
+	margin: 3%;
 }
 
 aside
 {
-	width: 0%;
-	float: left;
+	width: 0px;
+	height: 0px;
 	visibility: hidden;
 
 }
@@ -83,7 +83,7 @@ aside
 footer
 {
 	
-	clear: both;
+
 }
 
 
