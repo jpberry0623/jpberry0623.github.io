@@ -68,18 +68,22 @@ h2
 article
 {
 	width: 90%;
+	height: 90%;
 	overflow-x: none;
 }
 
 aside
 {
 	width: 0%;
+	float: left;
 	visibility: hidden;
+
 }
 
 footer
 {
-	margin-top: 10%;
+	
+	clear: both;
 }
 
 

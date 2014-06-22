@@ -30,6 +30,12 @@ h2
 	margin-left: 12%;
 }
 
+h3
+{
+	color: #ffaccd;
+	
+}
+
 
 .icons a, i, .icons a:visited, .icons i:visited
 {
@@ -92,14 +98,12 @@ ul#posts li
 
 a:hover.postitem
 {
-	
-	background-color: black;
-	color: #99ff66;
-	opacity: 0.6;
+	color: #99ff66;	
 }
 #posthead
 {
 	font-size: 2em;
+	color: black;
 }
 
 footer
