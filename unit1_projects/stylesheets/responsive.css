@@ -1,0 +1,93 @@
+
+
+article
+{ 
+	background: url("../images/bricks.jpg");
+	width: 45%;
+	padding: 4%;
+	height: 350px;
+	overflow: scroll;
+	margin-left: 5%;
+	margin-top: 2%;
+	opacity: .9;
+	color: #fff;
+	float: left;
+	text-align: justify;
+	
+}
+
+aside
+{
+	font-family: 'piedra', cursive;
+	min-width: 30%;
+	float: right;
+	margin-top: 5%;
+	margin-right: 5%;
+	height: 350px;
+	text-align: center;
+	overflow: scroll;
+	background: url("../images/wood.jpg");
+	
+
+}
+.icons a, .icons i{
+		
+		margin-right: 2%;
+		font-size: .8em;
+		margin-left: 2%;
+	}
+
+footer
+{
+	margin-top: 10%;
+}
+
+ul#footer li
+{	
+	float: left;
+	margin-right: 15%;
+}
+
+
+
+@media screen and (max-width: 500px){
+
+
+	.icons a, .icons i{
+		margin-top: 9%;
+		margin-right: 2%;
+		font-size: .7em;
+		margin-left: 2%;
+}
+
+h2
+{
+	margin-left: 2%;
+}
+
+article
+{
+	width: 90%;
+	overflow-x: none;
+}
+
+aside
+{
+	width: 0%;
+	visibility: hidden;
+}
+
+footer
+{
+	margin-top: 10%;
+}
+
+
+
+}
+
+
+
+
+
+
